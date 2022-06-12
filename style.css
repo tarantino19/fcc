@@ -3,6 +3,10 @@ html {
 }
 
 body {
-        background-color: darkslategray;
-        color: whitesmoke;
+        background-color: floralwhite;
+        color: black;
+}
+
+a:visited {
+        color:cornflowerblue
 }
