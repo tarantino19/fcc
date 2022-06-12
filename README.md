@@ -4,4 +4,5 @@ What's up changes!
 
 # Update
 
-I added html, about page, css hehe
+I added html, about page, css 
+PLEASE WORK NOW :(git)
