@@ -6,3 +6,5 @@ What's up changes!
 
 I added html, about page, css 
 PLEASE WORK NOW :(git)
+
+Okay I'm trying to add more now.
