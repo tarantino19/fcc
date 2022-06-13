@@ -20,6 +20,7 @@
             <ul>
                 <li><a href="#review1"> Ready to Review</a></li>
                 <li><a href="#review2">Reviewing It Now</a></li>
+                <li><a href="#contact">Contact Me</a></li>
             </ul>
         </nav>
         </header>
@@ -134,7 +135,114 @@
             </tfoot>
         </table>
         
+        <p>
+        <article id="contact">
+            <h2>Contact Me</h2>
+            <p>I'd like to hear from you</p>
 
+    <form action="https://httpbin.org/get" method="get">
+        <fieldset>
+                <legend>Personal info</legend>
+            <p>
+                <label for="firstName"> First Name:</label>
+                <input type="text" name="firstName" id="firstName" placeholder="Your First Name" autocomplete="on" required>
+            </p>
+            <p>
+                <label for="lastName"> Last Name:</label>
+                <input type="text" name="lastName" id="lastName" placeholder="Your Last Name" autocomplete="on" required>
+            </p>
+            <p>
+                <label for="email">Enter your email:</label>
+                <input type="email" id="email" name="email" placeholder="your best email address" required>
+            </p>
+            <p>
+                <label for="phone">Phone Number</label>
+                <input type="tel" name="phone" id="phone" placeholder="5555555555"  autocomplete="on" required>
+            </p> 
+            <p>
+                <label for="birthday">Birthday:</label>
+                <input type="date" id="birthday" name="birthday" autocomplete="on" required>
+            </p>
+            <p>
+                <label for="preferredLanguage">Preferred Coding Language:</label>
+                <select name="preferredcodinglanguage" id="preferredcodinglanguage" multiple size ="5">
+                        <option value="javascript" selected>Javascript</option>
+                        <option value="c">C</option>
+                        <option value="python">Python</option>
+                    </optgroup>
+                    <optgroup label="Secondary">
+                        <option value="java">Java</option>
+                    </optgroup>
+                        <option value="others">Others</option>
+                </select>
+            </p>
+<!--             <p>
+                <label for="preferredLanguage">Preferred Coding Language:</label>
+                <input type="text" name="preferredcodinglanguage" id="preferredcodinglanguage" list="codinglanguagelist">
+                <datalist id="codinglanguagelist">
+                        <option value="javascript">
+                        <option value="c">
+                        <option value="python">
+                        <option value="java">
+                        <option value="others">
+                </datalist>
+            </p> -->
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>What is your facorite food?</legend>
+            <p>
+                <input type="radio" name="food" id="adobo" value="adobo">
+                <label for="adobo">Adobo</label>
+            </p>
+            <p>
+                <input type="radio" name="food" id="sinigang" value="sinigang">
+                <label for="sinigang">Sinigang</label>
+            </p>
+            <p>
+                <input type="radio" name="food" id="kare-kare" value="kare-kare">
+                <label for="kare-kare">Kare-Kare</label>
+            </p>
+            <p>
+                <input type="radio" name="nothere" id="nothere" value="nothere">
+                <label for="nothere">Choice Not Here Cause I'm Weird Like That</label>
+            </p>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Do you have pets?</legend>
+            <p>
+                    <input type="checkbox" name="pets" id="dog" value="dog">
+                    <label for="dog">Dog</label>
+            </p>
+            <p>
+                <input type="checkbox" name="pets" id="cat" value="cat">
+                <label for="cat">Cat</label>
+        </p>
+        <p>
+            <input type="checkbox" name="pets" id="snake" value="snake">
+            <label for="snake">Snake</label>
+        </p>
+        <p>
+            <input type="checkbox" name="otherPets" id="otherPets" value="otherPets">
+            <label for="otherPets">Other Weirder Animals</label>
+        </p>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Send Me A Personal Message</legend>
+            <label for="message">Your Lovely Message</label>
+            <br>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="say something nice"></textarea>
+        </fieldset>
+        <br>
+            <button type="submit">submit</button>
+            <button type="reset">reset</button>
+            <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>
+    </form>
+        </article>
+
+<hr>
     <footer>
     <p>
         &lt; &lt; &lt; &copy; <a href= "about.html">Tarantino</a> &gt; &gt; &gt;
