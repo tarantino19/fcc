@@ -11,20 +11,22 @@
         <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
+        <header>
         <h1>Hello world, tradition!</h1>
         <p>or in code...</p>
         <code>&lt;h1&gt;Hello World!&lt;h1&gt;</code>
-        
-        <hr>
 
-        <nav>
+        <nav aria-label="primary-navigation">
             <ul>
                 <li><a href="#review1"> Ready to Review</a></li>
                 <li><a href="#review2">Reviewing It Now</a></li>
             </ul>
         </nav>
-
-        <section id="review1">
+        </header>
+        
+        <hr>
+         <main>
+             <section id="review1"></section>
         <h2>Spongebob, I'm ready to review html</h2>
         <p>This web page is a review of my skills</p>
         
@@ -45,11 +47,11 @@
             </figcaption>
             </figure>
              </ol>
-        </section> 
-
+                </section> 
+        
         <hr>
 
-        <section id="review2">
+            <section id="review2">
         <h2>I'm reviewing it now</h2>
         <p>&nbsp; &nbsp; Am I any good?</p>
         </section>
@@ -58,6 +60,7 @@
             <ul>
             <li> Schedule your study hours </li> 
             <li> Try to do projects every day</li> 
+            <li> Be humble enough to admit that there's always gonna be someone better than you</li>
             </ul>
         <p>Wanna learn more about this? You can visit Tarantino Academy in Lipa</p>
         <address> 34th Street, Ayala Highway, Lipa City</address> 
@@ -71,13 +74,74 @@
             <br>
             <dd>Visit our place for a more focused, job ready tutorial today!</dd>
         </dl>
-
+        </main>
         <hr>
 
+        <article>
+            <p>Read this short article for more info about coding:</p>
+            <p>In case you haven’t noticed, the role of technology has changed quite a bit in the last 20 years or so.</p>
+            <p> Slowly but surely, computers have permeated nearly every part of our lives</p>
+        </article>
+
+        <aside>
+            <details>
+                    <summary> Guess the <mark>number of hours</mark> I code?</summary>
+                    <p>I code for 6 hours per day. I start at <time datetime="08:00">8am</time> </p>
+            </details>
+        </aside>
+        <br>
+
+        <table>
+            <caption> My Daily Schedule for Coding</caption>
+            <thead>
+                <tr>
+                    <th>&nbsp;</th>
+                    <th scope="col">Time</th>
+                    <th scope="col">Activity</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th scope="row">Morning</th>
+                <td><time datetime="08:00">8am</time>-<time datetime="14:00">2pm</time></td>
+                <td>Write Code</td>
+            </tr>
+            <tr>
+                <th scope="row">Break</th>
+                <td><time datetime="14:00">2pm</time>-<time datetime="15:00">3pm</time></td>
+                <td>Merienda</td>
+            </tr>
+            <tr>
+                <th scope="row">Afternoon</th>
+                <td><time datetime="15:00">3pm</time>-<time datetime="18:00">6pm</time></td>
+                <td>Review My Code</td>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">Evening</th>
+                <td rowspan="2">All Other Times</td>
+                <td> Free Time</td>
+            </tr>
+            <tr>
+                <th scope="row">Night</th>
+                <td>Sleep</td>
+            </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan ="3">And that's all folks, that's what I do errday</td>
+                </tr>
+            </tfoot>
+        </table>
+        
+
+    <footer>
+    <p>
         &lt; &lt; &lt; &copy; <a href= "about.html">Tarantino</a> &gt; &gt; &gt;
+    </p>
         <p>
             <a href="#">Back to Top</a>
         </p>
-
+    </footer>
 </body>
 </html>

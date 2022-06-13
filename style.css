@@ -10,3 +10,10 @@ body {
 a:visited {
         color:cornflowerblue
 }
+
+table, tr, th, td, caption {
+        border: 1px solid #eee;
+        font-family: 'Courier New', Courier, monospace;
+        border-collapse:  collapse;
+        padding: 0.7em;
+}
