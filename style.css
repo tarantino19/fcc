@@ -1,10 +1,60 @@
+/*best css crashcourse fort useability*/
+
 html {
-        font-size: 24px;
+        font-size: 24px
+}
+
+h2 {
+        color:firebrick
+}
+
+body {
+        background-image: url('app.jpeg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        color: #eee;
+}
+
+.title {
+        background-color: pink;
+        border-top-style: dotted;
+        border-bottom-style: dotted;
+        border-color:chocolate;
+        border-width: medium;
+
+}
+
+.subtitle {
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+li {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
         background-color: floralwhite;
         color: black;
+}
+
+#shortarticle1 {
+        border: 5px solid;
+        width: 200px;
+        height: auto;
+        font-size: 30px;
+        background: yellowgreen;
+        margin-bottom: 4px;
+}
+
+#shortarticle2 {
+        border: 5px solid;
+        width: 200px;
+        height: auto;
+        font-size: 30px;
+        background:yellow;
+        margin-top: 4px;
 }
 
 a:visited {
@@ -16,4 +66,70 @@ table, tr, th, td, caption {
         font-family: 'Courier New', Courier, monospace;
         border-collapse:  collapse;
         padding: 0.7em;
+        background-color: aquamarine;
+        position: relative;
 }
+
+/*pseudo class kw added to a selector that specifies a special state of the selected elements*/
+
+a:link {
+        color: darkkhaki;
+}
+
+a:visited {
+        color: indianred;
+}
+
+a:hover {
+        color: tomato;
+}
+
+a:active {
+        color: black;
+}
+
+button:hover {
+        background-color: tomato;
+}
+
+button:active {
+        background-color: white;
+}
+
+ul > li{
+        background-color: lightcyan
+}
+
+/* li: nth-child (3n or 3n+1){
+        background-color: lightcyan
+}*/
+
+/*test shadows /box shadows*/
+
+h1 {
+        color: tomato;
+        text-shadow: 5px 5px 5px white;;
+        box-shadow: 5px 5px 5px black;
+}
+
+h1:hover {
+        box-shadow: 5px 5px 5px cornflowerblue;
+}
+
+/* fontawesome.com for free icons
+a hover for glow
+downloadkit, connect, .fa-whatever */
+
+/* transform:translatex (50px) , transform:rotatex(50px)) can als use 180deg , scalex , matrix(3) */
+
+/* @keyframes mySlide
+from {margin-left}: 0% 
+to {margin-right} 100%,  
+myrotate - use animation-X below class variables oncss
+#box1:hover
+#box2:active
+@keyframes ..myScale, myColorChange
+*/
+
+
+
