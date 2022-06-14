@@ -96,10 +96,6 @@ button:active {
         background-color: white;
 }
 
-ul > li{
-        background-color: lightcyan
-}
-
 /* li: nth-child (3n or 3n+1){
         background-color: lightcyan
 }*/
@@ -131,5 +127,46 @@ myrotate - use animation-X below class variables oncss
 @keyframes ..myScale, myColorChange
 */
 
+/*flexbox*/
 
+.flexbox-container {
+        background-color: coral;
+        display: flex;
+       /* container is for the space  between items and positioning of items inside the container - actual flex box items is to override or to apply flexible sizing to elements
+       justify-content: flex-start;main axis - but if flexdirection column - vertical is the maina axis , then cross axis is horizontal- most used
+        align-items: flex-start; /*cross axis - most used*/
+        /*flex-wrap: wrap;
+        align-content: flex-start; /*wraps content with flex-wrap
+        flex-direction: column;
+        align-items: center;*/
+
+}
+
+.flexbox-item {
+        width: 200px;
+        margin: 10px;
+        border: 5px solid;
+        background-color:deepskyblue
+}
+
+.flexbox-item-1 {
+        min-height: 100px;
+        flex-grow: 0;
+        align-self: flex-start;
+}
+
+.flexbox-item-2 {
+        min-height: 200px;
+        flex-grow: 2;
+        flex-basis: 0;
+        align-self: center;
+}
+
+.flexbox-item-3 {
+        min-height: 300px;
+        flex-grow: 1;
+        flex-basis: 0;
+}
+
+/*flex-growth shrink and justify content align items is mostly what you need*/
 
